@@ -61,8 +61,11 @@ Q6)
 Please see my database design below showing the different types of data you might need to access and store for this application.
 
 I have designed it so that each timeslot would have its own id. Example:
+
 Monday -> 09:00 – 09:30 -> timeslot_id: 100
+
 Monday -> 09:30 – 10:00 -> timeslot_id: 101
+
 This way we can easily keep track of the timeslots that are already booked and what timeslots are currently free.
 
 
