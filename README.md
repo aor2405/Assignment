@@ -69,7 +69,7 @@ Monday -> 09:30 – 10:00 -> timeslot_id: 101
 This way we can easily keep track of the timeslots that are already booked and what timeslots are currently free.
 
 
-##Other
+## Other
 
 Q7) 
 
