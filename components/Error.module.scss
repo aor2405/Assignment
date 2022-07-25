@@ -1,0 +1,14 @@
+$base-font: 'Roboto', 'sans-serif';
+
+.heading {
+  font-family: $base-font;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 3em;
+}
+
+.paragraph {
+  font-family: $base-font;
+  text-align: center;
+  margin-top: 0.25em;
+}
