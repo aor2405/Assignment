@@ -1,4 +1,6 @@
 import React from 'react';
+
+import Button from './Button';
 import styles from './ScheduleComponent.module.scss';
 
 export default function ScheduleComponent() {
@@ -10,6 +12,7 @@ export default function ScheduleComponent() {
         className={styles.image}
         data-testid="calendar"
       />
+      <Button>Confim Booking</Button>
     </div>
   );
 }

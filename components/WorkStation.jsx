@@ -4,6 +4,7 @@ import axios from 'axios';
 
 import Error from './Error';
 import styles from './WorkStation.module.scss';
+import Button from './Button';
 
 export default function WorkStation() {
   const [workstationData, setWorkstationData] = useState();
@@ -50,13 +51,11 @@ export default function WorkStation() {
             </div>
           )}
 
-          <div className={styles.buttonContainer}>
-            <Link href="/schedule">
-              <button className={styles.button} data-testid="button">
-                View Schedule
-              </button>
-            </Link>
-          </div>
+          <Link href="/schedule">
+            <div>
+              <Button>View Schedule</Button>
+            </div>
+          </Link>
         </div>
       ))}
     </main>

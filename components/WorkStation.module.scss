@@ -65,18 +65,3 @@ $color-unavailable: rgb(252, 16, 13);
   display: inline-block;
   margin: 16px 0px 0px 8px;
 }
-
-.buttonContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.button {
-  height: 40px;
-  background-color: royalblue;
-  color: white;
-  cursor: pointer;
-  border-radius: 0.375rem;
-  border-color: royalblue;
-  font-family: $base-font;
-}
