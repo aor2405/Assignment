@@ -60,6 +60,8 @@ Inside the event object I am adding in the ‘eventUpdated’ property for futur
 Q6)
 Please see my database design below showing the different types of data you might need to access and store for this application.
 
+![image](https://res.cloudinary.com/dd2duttda/image/upload/v1658754864/Screenshot_2022-07-25_at_14.14.13_nlzyf3.png)
+
 I have designed it so that each timeslot would have its own id. Example:
 
 Monday -> 09:00 – 09:30 -> timeslot_id: 100
