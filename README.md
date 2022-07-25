@@ -3,7 +3,7 @@
 ## Introduction
 Thank you for taking the time to review my solutions to the workstation booking assignment. I have taken the time to design a simple and easy to use booking system. Data is fetched from my mock database and displayed on the screen. A user has the ability to select the “View Schedule” button which will open up a new page showing that particular workstations calendar (currently simulated with displaying an image of a calendar from Google Calendar). I also implemented some basic unit testing.
 
-## Technologies used
+## Technologies Used
 I decided to use Next.Js for its file based routing and to create API endpoints without needing to setup Express.js. I also implemented SASS for its use of declaring CSS variables to avoid repeating lines of code. For testing I used Jest and react testing library along with Mock Service Worker in order to 
 mock out API calls.
 
@@ -58,7 +58,7 @@ The REST endpoint and URI to receive a workstation schedule would be a ‘POST' 
 
 Inside the event object I am adding in the ‘eventUpdated’ property for future proofing if we want to implement a feature that allows a user to update their booking.
 
-## Data persistence
+## Data Persistence
 Q6)
 Please see my database design below showing the different types of data you might need to access and store for this application.
 
