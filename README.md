@@ -74,7 +74,7 @@ Q6)
 
 Please see my database design below showing the different types of data you might need to access and store for this application. The database I am designing is for a relational database such as Postgres, as my data is dependent on the other data that is stored.
 
-![image](https://res.cloudinary.com/dd2duttda/image/upload/v1658764271/Screenshot_2022-07-25_at_16.50.47_pkg5cm.png)
+![image](https://res.cloudinary.com/dd2duttda/image/upload/v1658834495/Screenshot_2022-07-26_at_12.21.08_q9lucu.png)
 
 We will not keep track of the ‘current availability’ inside the database, this could be a function at the API level after a GET request that will check if a ‘start_time_date’ is equal to the current time and will return a BOOLEAN if it is true or false.
 
