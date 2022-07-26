@@ -58,7 +58,7 @@ The REST endpoint and URI to receive a workstation schedule would be a ‘GET’
 
 ‘http://api.workstation/schedule?id={id}’ where the query id is a dynamic id for the workstation that is requesting the schedule.
 
-In order to fetch all bookings for a workstation we can query our database to return all events where the ‘id’ we pass through in the query parameter is equal to the ‘workstation_id’ stored in the ‘schedule’ table. This will return all the bookings made for that workstation.
+In order to fetch all bookings for a workstation we can query our database to return all events where the ‘id’ we pass through in the query parameter is equal to the ‘workstation_id’ stored in the ‘events’ table. This will return all the bookings made for that workstation.
 
 
 Q5)
